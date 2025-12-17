@@ -1,5 +1,6 @@
 # Base image 
-FROM openjdk
+# FROM openjdk # openjdk image WITHOUT a tag is deprecated / removed
+FROM eclipse-temurin:17-jdk-jammy
 
 # setting artifact path
 ARG artifact=target/demo-java-app.jar
